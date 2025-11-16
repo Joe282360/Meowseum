@@ -1,0 +1,205 @@
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(205, 199, 199);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif padding 13px;
+    animation-name: H1Whimsy;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes H1Whimsy {
+    0% {
+        color: red;
+
+    }
+
+    30% {
+        color: orange;
+
+    }
+
+    40% {
+        color: yellow;
+
+    }
+
+    60% {
+        color: green;
+
+    }
+
+    80% {
+        color: indigo;
+
+    }
+
+    100% {
+        color: violet;
+
+    }
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+div {
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px 50px;
+}
+
+.hover-box {
+    background-color: red;
+    width: 350px;
+    height: 33px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    border-radius: 10%;
+}
+
+
+.hover-box:hover {
+    animation-name: SizeSwap;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    border-radius: 10%;
+    animation-name: colorChange;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    border-radius: 20%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes SizeSwap {
+    0% {
+        width: 0%;
+        length: 0%;
+    }
+
+    25% {
+        width: 25%;
+        length: 25%;
+    }
+
+    50% {
+        width: 50%;
+        length: 50%;
+    }
+
+    75% {
+        width: 75%;
+        length: 75%;
+
+    }
+
+    100% {
+        width: 100%;
+        length: 100%;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+        width: 50%;
+        height: 20%;
+    }
+
+    30% {
+        background-color: orange;
+        width: 50%;
+        height: 20%;
+    }
+
+    40% {
+        background-color: yellow;
+        width: 50%;
+        height: 20%;
+    }
+
+    60% {
+        background-color: green;
+        width: 105%;
+        height: 10%;
+    }
+
+    80% {
+        background-color: indigo;
+        width: 105%;
+        height: 20%;
+    }
+
+    100% {
+        background-color: violet;
+        width: 50%;
+        height: 200%;
+    }
+}
+
+textarea {
+    animation-name: TextBoxWhimsy;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    border-radius: 3.5%;
+}
+
+@keyframes TextBoxWhimsy {
+    0% {
+        background-color: red;
+
+    }
+
+    30% {
+        background-color: orange;
+    }
+
+    40% {
+        background-color: yellow;
+
+    }
+
+    60% {
+        background-color: green;
+
+    }
+
+    80% {
+        background-color: indigo;
+
+    }
+
+    100% {
+        background-color: violet;
+
+    }
+}
+
