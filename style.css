@@ -48,7 +48,11 @@ img {
 
 h2 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif padding 20px;
+    animation-name: H1Whimsy;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 img {
@@ -63,7 +67,7 @@ div {
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 25px 50px;
+    margin: 95px 80px;
 }
 
 .hover-box {
@@ -202,4 +206,3 @@ textarea {
 
     }
 }
-
